@@ -6,6 +6,16 @@ def main():
     Code Your Program here
     ########################################
     """
+    
+    for i in range(5):
+        while True:
+            try:
+                num = int(input(f"Enter Value {i+1}: "))
+                numbers.append(num)
+                
+            
+            
+    
 
     print(*numbers)
     print(maxval, minval)
