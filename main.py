@@ -12,7 +12,14 @@ def main():
             try:
                 num = int(input(f"Enter Value {i+1}: "))
                 numbers.append(num)
+                break
+            except ValueError:
+                print("Invalid Input")
                 
+    minval = numbers[0]
+    maxval = numbers[0]
+    
+
             
             
     
