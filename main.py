@@ -19,7 +19,11 @@ def main():
     minval = numbers[0]
     maxval = numbers[0]
     
-
+    for num in numbers[0:1]:
+        if num < minval:
+            minval = num
+        if num > maxval:
+            maxval = num
             
             
     
